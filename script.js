@@ -17,22 +17,22 @@ function input_create(tagname, attrname, attrvalue, attrname1, attrvalue1) {
 var firstname = label_create("label", "for", "firstname", "Firstname");
 var firstname_break = break_create();
 var input_firstname = input_create("input", "type", "text", "id", "firstname")
-var firstname_break = break_create();
+var first_break = break_create();
 var middlename = label_create("label", "for", "middlename", "Middlename");
 var middlename_break = break_create();
 var input_middlename = input_create("input", "type", "text", "id", "middlename")
-var firstname_break = break_create();
+var second_break = break_create();
 var lastname = label_create("label", "for", "lastname", "Lastname");
 var lastname_break = break_create();
 var input_lastname = input_create("input", "type", "text", "id", "lastname")
-var lastname_break = break_create();
+var third_break = break_create();
 var email = label_create("label", "for", "email", "Email");
 var email_break = break_create();
 var input_email = input_create("input", "type", "email", "id", "email")
-var email_break = break_create();
-var password = label_create("label", "for", "password", "Password");
+var forth_break = break_create();
+var password = label_create("label", "for", "pwd", "Password");
 var password_break = break_create();
-var input_password = input_create("input", "type", "text", "id", "password")
+var input_password = input_create("input", "type", "password", "id", "pwd")
 var fileupload_break = break_create();
 var input_fileupload = input_create("input", "type", "file", "id", "fileupload")
-document.body.append(firstname, firstname_break, input_firstname,firstname_break, middlename, middlename_break, input_middlename,middlename_break, lastname, lastname_break, input_lastname,lastname_break, email, email_break, input_email, email_break,password, password_break, input_password,fileupload_break, input_fileupload);
+document.body.append(firstname, firstname_break, input_firstname,first_break, middlename, middlename_break, input_middlename,second_break, lastname, lastname_break, input_lastname,third_break, email, email_break, input_email,forth_break,password, password_break, input_password,fileupload_break, input_fileupload);
